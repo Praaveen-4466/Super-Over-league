@@ -1,0 +1,29 @@
+.card-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers vertically */
+  align-items: center; /* Centers horizontally */
+  text-align: center; /* Ensures text inside is centered */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.heading {
+  color: white;
+  font-family: "Roboto";
+  font-weight: bold;
+  text-align: center;
+}
+
+.poster-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+..poster {
+  width: 150px; /* Adjust size */
+  height: auto;
+  border-radius: 10px;
+}
